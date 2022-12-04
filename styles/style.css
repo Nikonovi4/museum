@@ -1,18 +1,13 @@
 .root {
   width: 1440px;
 }
-
-.header__overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .4);
-  display: flex;
-}
+/* Блок header*/
 
 .header {
   width: 100%;
   position: relative;
 }
+
 .header__main-img {
   background-image: url(../images/main-illustration.png);
   width: 1180px;
@@ -20,6 +15,13 @@
   background-position: center;
   background-size: cover;
   margin-left: 261px;
+}
+
+.header__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  display: flex;
 }
 
 .header__title {
@@ -31,6 +33,7 @@
   font-weight: 700;
   color: white; 
 }
+
 
 .header__menu-block {
   width: 255px;
@@ -102,4 +105,21 @@
 .social_icon {
   width: 20px;
   height: 20px;
+}
+
+.cards {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+padding-top: 65px;
+}
+
+.card {
+
+}
+
+.card__picture {
+  width: 350px;
+  height: 160px;
+  background-position: center;
 }
