@@ -107,19 +107,82 @@
   height: 20px;
 }
 
+
+
 .cards {
 display: flex;
 gap: 30px;
 flex-wrap: wrap;
-padding-top: 65px;
+margin-top: 65px;
+justify-content: center;
+padding: 0;
+margin-bottom: 0;
 }
 
 .card {
-
+list-style: none;
+font-family: 'Manrope', sans-serif;
+max-width: 350px;
 }
 
 .card__picture {
   width: 350px;
   height: 160px;
   background-position: center;
+}
+
+.card__link {
+  text-decoration: none;
+  color: black;
+}
+
+.card__title {
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.card__autor {
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.card__date {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.card__price {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.footer__contacts {
+  background-color: #198dbf;
+  height: 135px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.footer__logo {
+  font-family: 'Bitter', serif;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer__contact {
+  font-family: 'Manrope', sans-serif;
+  line-height: 30px;
+  font-size: 25px;
+  color: white;
 }
