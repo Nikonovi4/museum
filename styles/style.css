@@ -9,7 +9,7 @@
 }
 
 .header__main-img {
-  background-image: url(../images/main-illustration.png);
+  background-image: url(/images/main-illustration.png);
   width: 1180px;
   height: 670px;
   background-position: center;
@@ -169,6 +169,7 @@ max-width: 350px;
   align-items: center;
   padding-left: 160px;
   padding-right: 160px;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -182,7 +183,44 @@ max-width: 350px;
 
 .footer__contact {
   font-family: 'Manrope', sans-serif;
-  line-height: 30px;
-  font-size: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  color: white;
+}
+
+.footer__links {
+  background-color: #052e61;
+  margin-top: 0;
+  height: 230px;
+  display: flex;
+}
+
+.footer__navi {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  
+}
+
+.footer__links-social {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.navi_link-icon {
+  -webkit-filter: invert(1);
+   filter: invert(1);
+   width: 30px;
+   height: 30px;
+}
+
+.footer__navi-link {
+  list-style: none;
+  
+}
+
+.navi-link__text {
+  text-decoration: none;
   color: white;
 }
