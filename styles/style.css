@@ -9,7 +9,7 @@
 }
 
 .header__main-img {
-  background-image: url(/images/main-illustration.png);
+  background-image: url(../images/main-illustration.png);
   width: 1180px;
   height: 670px;
   background-position: center;
