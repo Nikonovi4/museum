@@ -84,6 +84,13 @@
   font-weight: 400;
   text-decoration: none;
   color: black;
+  display: block;
+}
+
+.navi_link:hover {
+  transform: scale(1.2);
+  transition: .5s;
+  transform-origin: left;
 }
 
 .navi_links {
@@ -106,7 +113,11 @@
   height: 20px;
 }
 
-
+.social_icon:hover {
+  transform: scale(1.5);
+  transition: .5s;
+  transform-origin: center;
+}
 
 .cards {
 display: flex;
@@ -133,6 +144,19 @@ max-width: 350px;
 .card__link {
   text-decoration: none;
   color: black;
+  display: block;
+}
+
+.card__link:hover {
+transform: scale(1.1);
+transition: .5s;
+
+}
+
+.card__link:hover .card__picture {
+  filter: brightness(130%);
+  box-shadow: 0 0 2500px #052e61;
+  transition: 1s;
 }
 
 .card__title {
@@ -198,13 +222,19 @@ max-width: 350px;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
-  
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__links-social {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .navi_link-icon {
@@ -212,14 +242,30 @@ max-width: 350px;
    filter: invert(1);
    width: 30px;
    height: 30px;
+   display: block;
+}
+
+.navi_link-icon:hover {
+  transform: scale(1.3);
+  transition: .3s;
 }
 
 .footer__navi-link {
   list-style: none;
-  
 }
 
 .navi-link__text {
   text-decoration: none;
   color: white;
+  font-family: 'Manrope', sans-serif;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  border-right: solid 3px;
+  display: block;
+}
+
+.navi-link__text:hover {
+  transform: scale(1.1);
+  transition: .3s;
 }
